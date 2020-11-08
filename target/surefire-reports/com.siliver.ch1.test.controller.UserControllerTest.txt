@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.siliver.ch1.test.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.18 s <<< FAILURE! - in com.siliver.ch1.test.controller.UserControllerTest
+testMvc  Time elapsed: 0.109 s  <<< FAILURE!
+java.lang.AssertionError: Response content expected:<100> but was:<>
+	at com.siliver.ch1.test.controller.UserControllerTest.testMvc(UserControllerTest.java:37)
+
+updateUser  Time elapsed: 0.033 s  <<< FAILURE!
+java.lang.AssertionError: No value at JSON path "$.success"
+	at com.siliver.ch1.test.controller.UserControllerTest.updateUser(UserControllerTest.java:47)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.siliver.ch1.test.controller.UserControllerTest.updateUser(UserControllerTest.java:47)
+

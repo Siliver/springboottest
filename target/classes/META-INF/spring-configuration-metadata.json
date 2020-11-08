@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "server",
+      "type": "com.siliver.ch1.config.ServerConfig",
+      "sourceType": "com.siliver.ch1.config.ServerConfig"
+    },
+    {
+      "name": "server.servlet",
+      "type": "com.siliver.ch1.config.ServerConfig$Servlet",
+      "sourceType": "com.siliver.ch1.config.ServerConfig",
+      "sourceMethod": "getServlet()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.siliver.ch1.config.ServerConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

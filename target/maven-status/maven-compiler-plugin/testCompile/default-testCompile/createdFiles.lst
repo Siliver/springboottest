@@ -1,0 +1,4 @@
+com\siliver\ch1\test\mock\CreditServiceMockTest.class
+com\siliver\ch1\test\controller\UserControllerTest.class
+com\siliver\ch1\test\service\UserServiceTest.class
+com\siliver\ch1\test\db\UserDbTest.class
